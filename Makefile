@@ -13,7 +13,7 @@ APP_TITLE        :=  WifiManager
 APP_DESCRIPTION  :=  Backup and restore your WiFi slots!
 APP_AUTHOR       :=  LiquidFenrir
 
-TARGET           :=  $(notdir $(CURDIR))
+TARGET           :=  $(notdir $(APP_TITLE))
 OUTDIR           :=  out
 BUILD            :=  build
 SOURCES          :=  source source/filebrowser
